@@ -135,6 +135,8 @@ def scrape():
 
         # Give the website a 3 second break before scraping again
         time.sleep(3)
+    
+    image_01 = hemisphere_image_urls[0]
 
     mars_data = {
         "news_title": news_title,
